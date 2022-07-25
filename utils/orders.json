@@ -2,7 +2,7 @@
   {
     "cart": [
       {
-        "price": 10,
+        "price": 11,
         "discount": 10,
         "tag": ["Fruit", "Mangoes"],
         "title": "Mangoes",
