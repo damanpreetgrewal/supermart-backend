@@ -1,5 +1,5 @@
 
-dashtar Server Documentation
+Server Documentation
 
 
 Introduction: 
