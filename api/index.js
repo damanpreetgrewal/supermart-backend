@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
   res.send('App works properly!');
 });
 
-//this for route will need for store front, also for admin dashboard
+//Routes
 app.use('/api/products/', productRoutes);
 app.use('/api/category/', categoryRoutes);
 app.use('/api/coupon/', couponRoutes);
