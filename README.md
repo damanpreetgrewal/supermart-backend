@@ -21,11 +21,20 @@ Tech and Packages we use in this project:
 
 Getting Started & Installation:
 
-For getting started with the template you have to follow the below procedure. First navigate to the dashtar-server directory.
-
 Step 1 : Configure your .env file:
 
-Within the project directory you'll find a .env.example file just rename it as .env and paste your Mongo_Uri and JWT_SECRET.
+```js
+PORT=5000
+MONGO_URI='mongodb+srv://[username]:[password]@cluster0.oae2n.mongodb.net/[DBName]?retryWrites=true&w=majority'
+JWT_SECRET=supersecretforjwt
+JWT_SECRET_FOR_VERIFY=supersecretforjwtforverifyemail
+SERVICE=gmail
+EMAIL_USER=damanpreet.grewal92@gmail.com
+EMAIL_PASS=************
+HOST=smtp.gmail.com
+EMAIL_PORT=465
+STORE_URL=http://localhost:3000
+```
 
 Step 2 : Running the project:
 
